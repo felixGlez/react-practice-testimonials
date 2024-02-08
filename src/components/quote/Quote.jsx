@@ -1,7 +1,7 @@
 import { StyledQuote } from './styles';
 
 const Quote = props => {
-	return <StyledQuote>{props.quote}</StyledQuote>;
+	return <StyledQuote color={props.color}>{props.quote}</StyledQuote>;
 };
 
 export default Quote;

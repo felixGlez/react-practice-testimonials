@@ -1,7 +1,7 @@
 import { StyledText } from './styles';
 
 const Text = props => {
-	return <StyledText>{props.text}</StyledText>;
+	return <StyledText color={props.color}>{props.text}</StyledText>;
 };
 
 export default Text;
