@@ -22,6 +22,7 @@ const StyledName = styled.h3`
 	font-size: 1rem;
 	color: ${props => props.color};
 	margin: 0px 0px 5px 0px;
+	font-weight: 500;
 `;
 
 const StyledAvatar = styled.img`
